@@ -9,3 +9,13 @@ class Estudante:
     def media(self):
       media = 2.5 * self.prova01 + 2.5 * self.prova02 + 2 * self.trabalho01 / 7
       print(media)
+
+    def final(self):
+      if media =>4:
+        
+    
+    def aprovado(self):
+      print(f"O estudante {self.nome} foi aprovado!")
+
+    def reprovado(self):
+      print(f"O estudante {self.nome} foi reprovado!")
