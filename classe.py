@@ -11,11 +11,9 @@ class Estudante:
       print(media)
 
     def final(self):
-      if media =>4:
-        
-    
-    def aprovado(self):
-      print(f"O estudante {self.nome} foi aprovado!")
-
-    def reprovado(self):
-      print(f"O estudante {self.nome} foi reprovado!")
+      if media <=4:
+        return False
+      elif media >= 7:
+        return False
+      else:
+        return True
